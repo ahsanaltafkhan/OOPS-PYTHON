@@ -22,3 +22,17 @@ class car:
 c1 = car("Toyota", "Camry")
 c2 = car("Honda", "Civic")
 
+class animal:
+    def __init__(self, species, sound):
+        self.species = species
+        self.sound = sound
+
+n1 = animal("Dog", "Bark")
+n2 = animal("Cat", "Meow")
+
+#passing object as parameter
+class school:
+    def __init__(self, name, student):
+        self.name = name
+        self.student = student  
+
