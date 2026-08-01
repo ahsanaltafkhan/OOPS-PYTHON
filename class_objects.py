@@ -24,6 +24,14 @@ print(p2.name)
 print(p2.age)
 print(p2.degree)
 
+class car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+c1 = car("Toyota", "Camry")
+c2 = car("Honda", "Civic")
+
 class animal:
     def __init__(self, species, sound):
         self.species = species
