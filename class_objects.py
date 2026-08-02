@@ -40,9 +40,3 @@ class animal:
 n1 = animal("Dog", "Bark")
 n2 = animal("Cat", "Meow")
 
-#passing object as parameter
-class school:
-    def __init__(self, name, student):
-        self.name = name
-        self.student = student  
-
