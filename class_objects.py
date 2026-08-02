@@ -60,6 +60,8 @@ phone2.info()
 
 phone1.model = "S25 Ultra"
 phone2.brand = "Google"
-
+phone1.info()
+phone1.model = "S25 Ultra"
+phone2.brand = "Google"
 phone1.info()
 phone2.info()
