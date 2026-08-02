@@ -44,21 +44,22 @@ class Phone:
     def __init__(self, brand, model):
         self.brand = brand
         self.model = model
-
     def call(self):
         print(f"{self.brand} {self.model} is calling...")
-
     def info(self):
         print(f"Brand: {self.brand}")
         print(f"Model: {self.model}")
-
 phone1 = Phone("Samsung", "S24 Ultra")
 phone2 = Phone("Apple", "iPhone 16")
-
 phone1.call()
 phone1.info()
-
 print()
-
 phone2.call()
+phone2.info()
+
+
+phone1.model = "S25 Ultra"
+phone2.brand = "Google"
+
+phone1.info()
 phone2.info()
