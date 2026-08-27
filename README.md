@@ -15,8 +15,6 @@ A structured collection of Python Object-Oriented Programming concepts, examples
 ## Projects
 
 * Student Management System
-* Bank Management System
-* Library Management System
 
 ## Requirements
 
